@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 119px;
+    width: 100%;
+    background-color: #013ca6;
+}
+#logo1{
+    width: 80%;
+    float: left;
+}
+#logo1 img{
+    display: block;
+    float: left;
+    height: 119px;
+}
+#logo1 h1{
+    color: white;
+    padding:20px ;
+    text-align: center;
+    line-height: 30px;
+    /*TIPO DE LETRA -> font-family ROBOTO*/
+    font-family: 'Open Sans', sans-serif; 
+
+}
+/* #titulo{
+    width: 50%;
+}
+#titulo h1{
+    color: brown;
+} */
+#logo2{
+    width: 20%;
+    float: right;
+}
+#logo2 img{
+    display: block;
+    float: right;
+    height: 119px;
+}
+
+@media(max-width:1110px){
+    body{
+        background: salmon;
+    }
+    #header h1{
+        font-size: 28px;
+        /* float: left; */
+    }
+}
+@media(max-width:990px){
+    body{
+        background: salmon;
+    }
+    #header h1{
+        font-size: 20px;
+        float: left;
+    }
+}
+@media(max-width:918px){
+    body{
+        background: rgb(197, 29, 10);
+    }
+    #header h1{
+        font-size: 28px;
+        display: none;
+    }
+}
