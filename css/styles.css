@@ -128,7 +128,19 @@ header{
   }
   
   
-
+/* FOOTER */
+footer{
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 200px;
+  background-color: #013ca6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: white;
+}
 
 /* RESPONSIVE */
 
