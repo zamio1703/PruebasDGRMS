@@ -2,7 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-sacalable=no" />
+    <!-- <meta name="viewport" content="width=device-width, user-sacalable=no" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>DGRMS</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <!-- Insetar un icono -->
@@ -10,9 +12,12 @@
     <!-- Fuente ROBOTO bajada de google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-</head>
+    <!-- Fuente MULISH google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
 <body>
-    <!-- INCIO CABECERA -->
+    <!-- ### INCIO CABECERA #### -->
     <header id="header">
         <div id="logo1">
             <img src="img/logoTec.png" alt="logo logoTec" />
@@ -24,7 +29,70 @@
         <div id="logo2">
             <img src="img/logoTecNM.png" alt="logo logoTecNM" />
         </div>
+        <div class="clearfix"></div>
     </header>
-    <!-- FIN CABECERA -->
+    <!-- ### FIN CABECERA ### -->
+    
+    <!-- ### INICIO MENU ### -->
+    <nav id="nav">
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">BIENES MUEBLES 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">BIEN MUEBLE</a>
+                <a href="#">VALES</a>
+                <a href="#">COMPRAS</a>
+                <a href="#">REPORTES</a>
+                <a href="#">OTROS</a>
+              </div>
+            </div> 
+            <a href="#news">INVENTARIO</a>
+            <a href="#contact">AUTOS</a>
+            <div class="dropdown">
+              <button class="dropbtn">CATALOGO 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">O1</a>
+                <a href="#">O2</a>
+                <a href="#">O3</a>
+              </div>
+            </div> 
+            <a href="#about">TRAMITES</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          
+          <!-- <div style="padding-left:16px">
+            <h2>Responsive Topnav with Dropdown</h2>
+            <p>Resize the browser window to see how it works.</p>
+            <p>Hover over the dropdown button to open the dropdown menu.</p>
+          </div> -->
+          <div class="clearfix"></div>
+    </nav>
+    <!-- ### FIN MENU ### -->
+    <!-- ### INICIO CONTENIDO ### -->
+    <div id="contenido">
+      
+    </div>
+    <!-- ### FIN CONTENIDO ### -->
+    <!-- ### INICIO FOOTER ### -->
+    <footer id="footer">
+
+    </footer>
+    <!-- ### FIN FOOTER ### -->
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
